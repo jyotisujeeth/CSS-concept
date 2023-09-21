@@ -4,10 +4,13 @@
 }
 h1{
     color: red;
+    text-align: end;
+    text-decoration: blue wavy;
 };
 
 h2 {
     color: yellowgreen;
+    font-weight: 400;
 };
 
 p{
@@ -31,4 +34,14 @@ button{
 /* class selector */
 .myclass {
     color: yellowgreen;
+}
+p{
+    text-align: center;
+    text-decoration:tomato ;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a{
+    text-decoration: none;
 }
