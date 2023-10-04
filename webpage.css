@@ -27,10 +27,10 @@ a {
     width: 100px;
     background-color: aquamarine;
     border: 2px solid black;
-    display: inline;
+    display: inline-block;
 }
 #content{
-    height: 700px;
+    height: 600px;
 }
 footer{
     background-color: blueviolet;
