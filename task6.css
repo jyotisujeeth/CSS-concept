@@ -1,0 +1,30 @@
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+    color: blue;
+    background-color: brown;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+.in{
+    height: 400px;
+    width: 400px;
+    background-image:url("fox.jpg");
+    align-items: self-start;
+}
+.out{
+    height: 600px;
+    width: 600px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
