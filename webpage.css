@@ -4,7 +4,13 @@
     color: orange;
    
 }
-
+#box1{
+     background: url("fox.jpg"); 
+    position: static;
+    background-size: Auto;
+    height: 100px;
+    width: 100px;
+}
 #navbar {
     height: 60px;
     background-color: #0f1111;
@@ -40,13 +46,14 @@ footer{
 }
 
 #box1{
-    position: static;
+  
 }
 
 #box2{
 position: relative;
-top: 50px;
+top: -50px;
 left: 23px;
+z-index: 2;
 }
 
 #box3{
@@ -55,8 +62,9 @@ left: 23px;
     left: 85px;
 }
 #box4{
-    position: fixed;
+    /* position: fixed; */
     /* right:50px ; */
     top: 00;
     /* //width: 100%; */
+
 }
