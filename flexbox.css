@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+div{
+    height: 100px;
+    width: 50px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#content{
+    width: 800px;
+    height: 300px; 
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: flex-end;
+
+}
+
+box1
