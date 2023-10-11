@@ -1,0 +1,19 @@
+div {
+    height: 100;
+    width: 100;
+    background-color: blueviolet;
+    border: 2px solid gray;
+transition-property:all ;
+transition-duration:2s ;
+transition-timing-function: step-start;
+transition-delay:5s ;
+}
+
+div:hover{
+    background-color: aquamarine;
+color: pink;
+font-size: large;
+}
+div:active {
+    background-color: blue;
+}

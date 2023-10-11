@@ -1,6 +1,6 @@
 div{
-    height: 400;
-    width: 400;
+    height: 200;
+    width: 200;
     background-color: blueviolet;
 }
 
@@ -10,7 +10,7 @@ div{
     }
 } 
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
     div{
         background-color: brown;
     }
@@ -19,5 +19,10 @@ div{
 @media(min-width:200px) and (max-width:300px) {
     div{
         background-color: orangered;
+    }
+}
+@media(min-width:400px) and (max-width:600px) {
+    div {
+        background-color: red;
     }
 }
