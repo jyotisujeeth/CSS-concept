@@ -20,6 +20,7 @@ div{
 }
 
 box2{
+    
 height: 200px;
 flex-shrink: 2;
 flex-grow: 2;
