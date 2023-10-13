@@ -21,4 +21,7 @@ div {
         background-color: blue;
     color: black;}
 
+    0%{
+        background-color: aquamarine;
+    }50%{background-color: blue;}100%{background-color: red;}
 }
